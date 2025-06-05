@@ -56,7 +56,7 @@ I love building beautiful and responsive websites using modern technologies.
 
 ## 📬 Contact Me
 
-- 📧 Email: **sonakshi@example.com**
+- 📧 Email: **sonisonakshi@gmail.com**
 - 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
 - 🐙 [GitHub](https://github.com/soni-sonakshi)
 
