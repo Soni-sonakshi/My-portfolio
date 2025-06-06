@@ -51,5 +51,21 @@ document.addEventListener("DOMContentLoaded", function() {
     reset: true
   });
 });
+  const menuIcon = document.getElementById('menu-icon');
+  const navbar = document.getElementById('navbar');
+  const links = document.querySelectorAll('#navbar a');
+
+  // Toggle navbar show/hide on icon click
+  menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('show');
+  });
+
+  // Hide navbar when any link is clicked (mobile UX)
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      navbar.classList.remove('show');
+    });
+  });
+
 
 
