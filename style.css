@@ -635,6 +635,7 @@ body {
   gap: 2rem;
 }
 
+
 .row {
   position: relative;
   overflow: hidden;
@@ -668,6 +669,8 @@ body {
   transition: height 0.5s;
 }
 
+
+
 .layer h5 {
   font-size: 20px;
   color: #ff0090;
@@ -679,14 +682,15 @@ body {
   color: #fff;
   line-height: 1.5;
 }
+
 .layer p span{
     color: #ff0090;
 }
 
 .layer i {
-  background: #fff;
+  background: #eee;
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 8px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -701,6 +705,36 @@ body {
 
 .row:hover .layer {
   height: 100%;
+}
+.project-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Ensure btn-box looks good */
+.btn-box {
+  background: #8c3cdc;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  height:50px;
+  text-justify: center;
+  align-items: center;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-box:hover {
+  background: #a855f7;
+}
+
+/* Optional hover effect for icon */
+.project-actions i:hover {
+  transform: scale(1.1);
 }
 
 
